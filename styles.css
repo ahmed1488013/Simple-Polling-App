@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Poll Container */
+  .poll-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  /* Poll Options */
+  .poll-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  /* Option Buttons */
+  .poll-option {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .poll-option:hover {
+    background-color: #45a049;
+  }
+  
+  /* Vote Count */
+  .vote-counts {
+    margin-bottom: 20px;
+  }
+  
+  .vote-counts p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    background-color: #007BFF; /* Blue */
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .poll-options {
+      flex-direction: column;
+    }
+  }
+  
